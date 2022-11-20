@@ -1,0 +1,23 @@
+[
+  {
+    "title": "The Way of Kings",
+    "author": "Brandon Sanderson",
+    "pageCount": "1007",
+    "price": "68.32",
+    "cover": "way-of-kings"
+  },
+  {
+    "title": "Words of Radiance",
+    "author": "Brandon Sanderson",
+    "pageCount": "1087",
+    "price": "71.23",
+    "cover": "words-of-radiance"
+  },
+  {
+    "title": "Oathbringer",
+    "author": "Brandon Sanderson",
+    "pageCount": "1248",
+    "price": "62.97",
+    "cover": "oathbringer"
+  }
+]
