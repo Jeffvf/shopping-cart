@@ -43,6 +43,19 @@ h1,h2{
   animation: fadeIn 3s;
 }
 
+button{
+  border-style: none;
+  border-color: white;
+  background-color: orange;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
 .store-link{
   border-style: none;
   border-color: white;
@@ -98,7 +111,7 @@ a{
   padding: 20px;
 }
 
-.store > *{
+.store-item > *{
   color: black;
 }
 
@@ -119,4 +132,24 @@ a{
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   justify-items: center;
+}
+
+#cart{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.cart-items{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  text-align: center;
+  gap: 15px;
+}
+
+.total-price{
+  font-size: 25px;
 }
