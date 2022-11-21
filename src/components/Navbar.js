@@ -10,7 +10,9 @@ function Navbar() {
           <Link to="/shop">Shopping Page</Link>
         </div>
         <div className="nav-items-right">
-          <img src={shoppingCart} alt="shopping cart" width="36px" height="36px"></img>
+          <Link to="/cart">
+            <img src={shoppingCart} alt="shopping cart" width="36px" height="36px"></img>
+          </Link>
         </div>
     </nav>
   )
